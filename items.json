@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bread",
+    "cost": "55",
+    "year": "2020"
+  },
+  {
+    "name": "milk",
+    "cost": "50",
+    "year": "2020"
+  },
+  {
+    "name": "sugar",
+    "cost": "200",
+    "year": "2020"
+  },
+  {
+    "name": "bread",
+    "cost": "60",
+    "year": "2021"
+  }
+]

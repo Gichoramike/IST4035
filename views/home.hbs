@@ -1,0 +1,45 @@
+
+<html lang="en">
+    <link>
+        <title>KNBS Price Tracker</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css" /> 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+        
+    </head>
+    <body onload="fetchitems()">
+        <h1>Price Tracker</h1>
+        <div>
+            <form>
+                <label>
+                    <span>Item Name:</span>
+                    <input id="itemName" type="text" />
+                </label>
+                <label>
+                    <span>Item Cost:</span>
+                    <input id="itemCost" type="text" />
+                </label>
+                <label>
+                    <span>Year:</span>
+                    <input id="year" type="text" />
+                </label>
+                <label>
+                    <span> </span>
+                    <button>Generate</button>
+                </label>
+            </form>
+             <table id="content">
+            </table>
+
+            
+            <div>
+                <canvas id="lineGraph" width="400" height="200"></canvas>
+            </div>
+        </div>
+       
+
+    
+    </body>
+    <script src="js/main.js"></script>
+
+</html>
