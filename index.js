@@ -34,15 +34,6 @@ app.post('/items', jsonParser, (request, response) => {
     response.end();
 });
 
-//to be modified and checked !!!!!1
-// app.post('/items', jsonParser, (request, response) => {
-//     const indexOfitemToBeEdited = data.findIndex(
-//       (studentMarks) => studentMarks.id === request.body.id
-//     );
-//     data[indexOfitemToBeEdited] = request.body;
-//     fs.writeFileSync(fileName, JSON.stringify(data, null, 2));
-//     response.end();
-//   });
 
 
 app.listen(port);

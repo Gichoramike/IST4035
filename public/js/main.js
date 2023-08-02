@@ -37,7 +37,7 @@ async function additems() {
 }
 
 //Edit items 
-// async function editProducts(name){
+// async function editProducts(items){
 //     const url = server + '/edit-items';
 //     const options={
 //         method: 'POST',
